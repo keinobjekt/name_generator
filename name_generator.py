@@ -1,13 +1,5 @@
 # name_generator.py
-#
 # By TJ Hertz, 2024
-#
-# Given a list of adjectives, nouns and verbs, this script generates random names for your 
-# song/band/project/label/whatever.
-# 
-# Simply feed it a newline-separated list of adjectives, nouns and verbs when prompted, and
-# let it do the rest.
-#
 
 import random
 
@@ -21,7 +13,7 @@ if mode not in ['1','2','3','4']:
 mode = int(mode)
 
 if mode != 2:
-    print("\nEnter adjectives one at a time or leave input blank to continue:\n")
+    print("\nEnter adjectives one at a time, then leave input empty and press enter to continue:\n")
     adjectives = []
     while 1:
         val = input()
@@ -30,7 +22,7 @@ if mode != 2:
         else:
             adjectives += [val]
 
-print("\nEnter nouns one at a time or leave input blank to continue:\n")
+print("\nEnter nouns one at a time, then leave input empty and press enter to continue:\n")
 nouns = []
 while 1:
     val = input()
@@ -40,7 +32,7 @@ while 1:
         nouns += [val]
 
 if mode == 3 or mode == 4:
-    print("\nEnter verbs one at a time or leave input blank to continue:\n")
+    print("\nEnter verbs one at a time, then leave input empty and press enter to continue:\n")
     verbs = []
     while 1:
         val = input()
