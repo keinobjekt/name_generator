@@ -1,6 +1,6 @@
 # name_generator.py
 
-# By TJ Hertz, 2024
+By TJ Hertz, 2024
 
 Given a list of adjectives, nouns and verbs, this script generates random names for your 
 song/band/project/label/whatever.
